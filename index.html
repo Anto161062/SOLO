@@ -2,78 +2,82 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ripartire da SottoZero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ripartire da SottoZero - eBook</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
       margin: 0;
-      padding: 2rem;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f0f0f0;
       color: #333;
     }
+
     .container {
       max-width: 800px;
       margin: auto;
-      background: white;
       padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1 {
-      text-align: center;
-      color: #2c3e50;
-    }
-    p {
-      line-height: 1.6;
-    }
-    .button {
-      display: inline-block;
-      background-color: #2980b9;
+
+    .cover {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
       color: white;
-      padding: 0.8rem 1.5rem;
+      padding: 4rem 2rem;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .cover h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .cover p {
+      font-size: 1.1rem;
+    }
+
+    .meta {
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .cta a {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      margin: 2rem 0;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s;
     }
-    .button:hover {
-      background-color: #1e6a91;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      padding: 0.4rem 0;
+
+    .cta a:hover {
+      background: #1a252f;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>📘 Ripartire da SottoZero</h1>
-    <p>
-      Questo è un libro vero. Crudo. Umano. <br/>
-      Racconta la storia di una caduta, e del lento, faticoso tentativo di risalire. Una vita che si è sgretolata, ma che non ha mai smesso di cercare un appiglio. Se stai vivendo qualcosa di simile, forse in queste pagine troverai un fratello.
-    </p>
+    <div class="cover">
+      <h1>Ripartire da SottoZero</h1>
+      <p><em>Una storia vera di caduta e rinascita.</em></p>
+      <div class="meta">
+        <p><strong>Autore:</strong> Anto</p>
+        <p><strong>Anno:</strong> 2025</p>
+        <p><strong>Genere:</strong> Autobiografia, resilienza, rinascita</p>
+      </div>
+    </div>
 
-    <a href="Ripartire_da_SottoZero.pdf" class="button" download>📄 Scarica l'eBook in PDF</a>
-
-    <h2>📚 Capitoli</h2>
-    <ul>
-      <li>1. Quando tutto sembrava avere un senso</li>
-      <li>2. Il momento in cui tutto è cambiato</li>
-      <li>3. Il fondo del pozzo</li>
-      <li>4. Anche l’orgoglio va messo da parte</li>
-      <li>5. Lacrime in una strada buia</li>
-      <li>6. La mano tesa</li>
-      <li>7. Solo</li>
-      <li>8. Il giorno dopo</li>
-    </ul>
-
-    <p style="margin-top: 3rem; font-size: 0.9rem; color: #666;">
-      © 2025 Ripartire da SottoZero — Tutti i diritti riservati.
-    </p>
+    <div class="cta">
+      <a href="Ripartire_da_SottoZero.pdf" download>📘 Scarica l'eBook</a>
+    </div>
   </div>
 </body>
 </html>
